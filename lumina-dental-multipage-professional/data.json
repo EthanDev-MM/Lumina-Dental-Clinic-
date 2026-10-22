@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "u-patient",
+      "name": "Alex Morgan",
+      "email": "patient@demo.com",
+      "password": "Demo123!",
+      "role": "patient"
+    },
+    {
+      "id": "u-staff",
+      "name": "Jamie Lee",
+      "email": "staff@demo.com",
+      "password": "Demo123!",
+      "role": "staff"
+    },
+    {
+      "id": "u-dentist",
+      "name": "Dr. Maya Chen",
+      "email": "dentist@demo.com",
+      "password": "Demo123!",
+      "role": "dentist"
+    },
+    {
+      "id": "u-it",
+      "name": "IT Administrator",
+      "email": "it@demo.com",
+      "password": "Demo123!",
+      "role": "it"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "cleaning",
+      "name": "Professional Cleaning",
+      "category": "Preventive care",
+      "description": "A gentle clean to help keep your smile healthy.",
+      "price": 850,
+      "duration": 30,
+      "color": "mint"
+    },
+    {
+      "id": "checkup",
+      "name": "Dental Check-up",
+      "category": "Consultation",
+      "description": "A comprehensive dental examination and advice.",
+      "price": 500,
+      "duration": 20,
+      "color": "blue"
+    },
+    {
+      "id": "whitening",
+      "name": "Teeth Whitening",
+      "category": "Cosmetic dentistry",
+      "description": "A brighter smile with a guided whitening session.",
+      "price": 2200,
+      "duration": 60,
+      "color": "peach"
+    },
+    {
+      "id": "extraction",
+      "name": "Tooth Extraction",
+      "category": "Oral surgery",
+      "description": "Assessment and extraction appointment with a dentist.",
+      "price": 1500,
+      "duration": 45,
+      "color": "lilac"
+    },
+    {
+      "id": "filling",
+      "name": "Dental Filling",
+      "category": "Restorative care",
+      "description": "Restore a tooth with a comfortable filling appointment.",
+      "price": 1200,
+      "duration": 40,
+      "color": "blue"
+    }
+  ],
+  "dentists": [
+    {
+      "id": "d-maya",
+      "name": "Dr. Maya Chen",
+      "specialty": "General Dentistry",
+      "initials": "MC",
+      "color": "mint"
+    },
+    {
+      "id": "d-noah",
+      "name": "Dr. Noah Patel",
+      "specialty": "Cosmetic Dentistry",
+      "initials": "NP",
+      "color": "peach"
+    },
+    {
+      "id": "d-sophia",
+      "name": "Dr. Sophia Kim",
+      "specialty": "Restorative Dentistry",
+      "initials": "SK",
+      "color": "lilac"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APT-2048",
+      "patientId": "u-patient",
+      "patientName": "Alex Morgan",
+      "email": "patient@demo.com",
+      "phone": "081 234 5678",
+      "procedureId": "cleaning",
+      "procedureName": "Professional Cleaning",
+      "dentistId": "d-maya",
+      "dentistName": "Dr. Maya Chen",
+      "date": "2026-10-23",
+      "time": "10:00",
+      "status": "Confirmed",
+      "paymentStatus": "Unpaid",
+      "notes": "",
+      "createdAt": "2026-10-22T20:34:36.201Z"
+    },
+    {
+      "id": "APT-2049",
+      "patientId": "u-patient",
+      "patientName": "Alex Morgan",
+      "email": "patient@demo.com",
+      "phone": "081 234 5678",
+      "procedureId": "checkup",
+      "procedureName": "Dental Check-up",
+      "dentistId": "d-noah",
+      "dentistName": "Dr. Noah Patel",
+      "date": "2026-10-26",
+      "time": "14:00",
+      "status": "Pending",
+      "paymentStatus": "Unpaid",
+      "notes": "",
+      "createdAt": "2026-10-22T20:34:36.201Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "LOG-1792701664328",
+      "level": "INFO",
+      "message": "User signed in",
+      "actor": "IT Administrator",
+      "at": "2026-10-22T20:41:04.328Z"
+    },
+    {
+      "id": "LOG-1792701586950",
+      "level": "INFO",
+      "message": "User signed in",
+      "actor": "IT Administrator",
+      "at": "2026-10-22T20:39:46.950Z"
+    },
+    {
+      "id": "LOG-001",
+      "level": "INFO",
+      "message": "System initialized successfully",
+      "at": "2026-10-22T20:34:36.201Z",
+      "actor": "System"
+    }
+  ],
+  "settings": {
+    "clinicName": "Lumina Dental Studio",
+    "maintenanceMode": false,
+    "lastBackup": null
+  }
+}

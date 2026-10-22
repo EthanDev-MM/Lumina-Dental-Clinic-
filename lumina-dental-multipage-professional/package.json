@@ -1,0 +1,8 @@
+{
+  "name": "dental-clinic-booking-system",
+  "version": "1.0.0",
+  "description": "Multi-page dental clinic appointment booking system prototype",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
